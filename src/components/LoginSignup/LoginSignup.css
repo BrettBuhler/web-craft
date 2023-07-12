@@ -1,0 +1,29 @@
+.login-signup-form-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.wrapper .animate-signUp .login-signup-form-wrapper .sign-in {
+    transform: rotate(7deg);
+    animation: animateRotate .7s ease-in-out forwards;
+    animation-delay: .3s;
+}
+
+.wrapper .animate-signIn .login-signup-form-wrapper .sign-in {
+    animation: animateSignIn 1.5s ease-in-out forwards;
+}
+
+.sign-in {
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    position: relative;
+}
